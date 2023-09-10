@@ -155,6 +155,22 @@ hr {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benfits-image { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
