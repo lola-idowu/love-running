@@ -224,7 +224,13 @@ hr {
     color: #3a3a3a;
 }
 
-
+/* Media query for large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 
 
@@ -286,6 +292,12 @@ hr {
         align-self: flex-end;
     }
 
+    /* Gallery */
+
+    #photos {
+        column-count: 3;
+    }
+
 
 
 }
@@ -322,5 +334,11 @@ hr {
     #benefits-physical > div {
         align-self: flex-end;
     }
+
+        /* Gallery */
+    
+        #photos {
+            column-count: 4;
+        }
 }
  
